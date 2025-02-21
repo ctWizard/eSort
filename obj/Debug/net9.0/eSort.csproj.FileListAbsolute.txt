@@ -1,0 +1,14 @@
+D:\eSort\bin\Debug\net9.0\eSort.exe
+D:\eSort\bin\Debug\net9.0\eSort.deps.json
+D:\eSort\bin\Debug\net9.0\eSort.runtimeconfig.json
+D:\eSort\bin\Debug\net9.0\eSort.dll
+D:\eSort\bin\Debug\net9.0\eSort.pdb
+D:\eSort\obj\Debug\net9.0\eSort.GeneratedMSBuildEditorConfig.editorconfig
+D:\eSort\obj\Debug\net9.0\eSort.AssemblyInfoInputs.cache
+D:\eSort\obj\Debug\net9.0\eSort.AssemblyInfo.cs
+D:\eSort\obj\Debug\net9.0\eSort.csproj.CoreCompileInputs.cache
+D:\eSort\obj\Debug\net9.0\eSort.dll
+D:\eSort\obj\Debug\net9.0\refint\eSort.dll
+D:\eSort\obj\Debug\net9.0\eSort.pdb
+D:\eSort\obj\Debug\net9.0\eSort.genruntimeconfig.cache
+D:\eSort\obj\Debug\net9.0\ref\eSort.dll
