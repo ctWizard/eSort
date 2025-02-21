@@ -16,29 +16,30 @@ for (int i = 0; i < length; i++)
 }
 
 
-int[] SortInsertion(int[] array,int length){
+int[] eSort(int[] array,int length){
+    //check each value making sure that it is larger then the last, if not verifyes through every previous value
     for (int i=1;i<length;i++){
-        var key = array[i];
-        var flag =0;
+        int checkedVal = array[i];
+        bool endLoop = false;
 
-        for (int j =i-1; j>=0 && flag!=1;)
-        {
-            if (key<array[j]){
-                array[j+1] = array[j];
-                j--;
-                array[j+1]=key;
+        for (int previousIndex=i-1;previousIndex>=0 &&endLoop==false;){
+            if (checkedVal<array[previousIndex]){
+                array[previousIndex+1] = array[previousIndex];
+                array[previousIndex]=checkedVal;
+                previousIndex--;
             }
-            else flag =1;
-            
+            else endLoop=true;
         }
     }
     return array;
 }
 
+
 Console.WriteLine("Insertion sort");
+Console.WriteLine("Array length :"+length);
 DateTime start1 = DateTime.Now;
 Console.WriteLine(start1);
-int[] sorted = SortInsertion(ints, length);
+int[] sorted = eSort(ints, length);
 DateTime end1 = DateTime.Now;
 TimeSpan timeDiff2 = end1 - start1;
 Console.WriteLine("Time taken: "+timeDiff2);

@@ -12,3 +12,4 @@ D:\eSort\obj\Debug\net9.0\refint\eSort.dll
 D:\eSort\obj\Debug\net9.0\eSort.pdb
 D:\eSort\obj\Debug\net9.0\eSort.genruntimeconfig.cache
 D:\eSort\obj\Debug\net9.0\ref\eSort.dll
+D:\eSort\obj\Debug\net9.0\eSort.sourcelink.json
